@@ -1,0 +1,29 @@
+{
+  "name": "online-video-editing",
+  "version": "1.0.0",
+  "description": "My Remotion video",
+  "repository": {},
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remotion/cli": "4.0.178",
+    "@remotion/google-fonts": "4.0.178",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "4.0.178"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config": "4.0.178",
+    "@types/react": "^18.0.26",
+    "@types/web": "^0.0.143",
+    "eslint": "^8.43.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render",
+    "upgrade": "remotion upgrade",
+    "test": "eslint src --ext ts,tsx,js,jsx && tsc"
+  },
+  "packageManager": "pnpm@9.4.0"
+}
